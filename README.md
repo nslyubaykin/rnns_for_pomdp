@@ -1,6 +1,6 @@
 # Recurrent Policies for Handling Partially Observable Environments with [ReLAx](https://github.com/nslyubaykin/relax)
 
-This repository contains an implementation of PPO-GAE algorithm with lagged LSTM policy (and critic) and its comparison with 0-lag MLP PPO-GAE.
+This repository contains an [implementation](https://github.com/nslyubaykin/rnns_for_pomdp/blob/master/lags_for_pomdp.ipynb) of PPO-GAE algorithm with lagged LSTM policy (and critic) and its comparison with 0-lag MLP PPO-GAE.
 
 To simulate partial observability in a controlled manner a gym.Wrapper which masks observation's array elements with zeros with eps probability was created. 
 In our experiments, the degree of partial observability was controlled through altering eps value.
